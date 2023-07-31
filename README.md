@@ -1,4 +1,4 @@
-# Contextual Bandits
+# Contextual MAB
 MAB and linear/non-linear Contextual MAB algorithms.
 
 ## Algorithms
@@ -14,10 +14,10 @@ MAB and linear/non-linear Contextual MAB algorithms.
 * [x] Neural Net UCB
 
 ## Usage Instructions
-* This project is published on [PyPI](https://pypi.org/project/contextual-bandits/). To install package, run:
+* This project is published on [PyPI](https://pypi.org/project/contextual-mab/). To install package, run:
 
   ```
-  pip install contextual-bandits
+  pip install contextual-mab
   ```
 * To run the algorithms, import the package and call the respective functions. For example, to run the LinUCB algorithm, run:
 
