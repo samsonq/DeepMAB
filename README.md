@@ -1,4 +1,4 @@
-# Contextual MAB
+# Deep Contextual MAB
 MAB and linear/non-linear Contextual MAB algorithms.
 
 ## Algorithms
@@ -14,15 +14,15 @@ MAB and linear/non-linear Contextual MAB algorithms.
 * [x] Neural Net UCB
 
 ## Usage Instructions
-* This project is published on [PyPI](https://pypi.org/project/contextual-mab/). To install package, run:
+* This project is published on [PyPI](https://pypi.org/project/deep-mab/). To install package, run:
 
   ```
-  pip install contextual-mab
+  pip install deep-mab
   ```
 * To run the algorithms, import the package and call the respective functions. For example, to run the LinUCB algorithm, run:
 
   ```
-  from contextual_bandits.algorithms import LinUCB
+  from deep_mab.cmab import LinUCB
   model = LinUCB(n_arms=10, alpha=1, fit_intercept=True)
   model.fit(X_train, y_train)
   model.predict(X_test)
@@ -31,14 +31,14 @@ MAB and linear/non-linear Contextual MAB algorithms.
 * To run the examples, clone the repository and run the following commands:
 
   ```
-  cd contextual-bandits
+  cd deep-mab
   pip install -r requirements.txt
   python examples/linucb_example.py
   ```
 * To run the tests, run the following commands:
 
   ```
-  cd contextual-bandits
+  cd deep-mab
   pip install -r requirements.txt
   pytest
   ```

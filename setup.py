@@ -30,11 +30,11 @@ except Exception as e:
     install_reqs = []
 
 setup(
-    name="contextual-mab",
+    name="deep_mab",
     version="0.1.0",
     author="Samson Qian",
     author_email="samsonqian@gmail.com",
-    packages=["contextual_mab", "contextual_mab.cmab", "contextual_mab.mab"],
+    packages=["deep_mab", "deep_mab.cmab", "deep_mab.mab"],
     url="https://github.com/samsonq/contextual-bandits",
     license="MIT",
     description="Contextual MAB algorithms",
@@ -42,5 +42,5 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=install_reqs,
     python_requires=">=3.6",
-    keywords="mab contextual-mab contextual-mab reinforcement-learning",
+    keywords="mab deep_mab deep_mab reinforcement-learning",
 )
