@@ -31,7 +31,7 @@ except Exception as e:
 
 setup(
     name="deep_mab",
-    version="0.1.0",
+    version="0.1.1",
     author="Samson Qian",
     author_email="samsonqian@gmail.com",
     packages=["deep_mab", "deep_mab.cmab", "deep_mab.mab"],
